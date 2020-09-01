@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{Shoulda-like matchers for Grape Entity.}
   s.license     = "MIT"
 
-  s.required_ruby_version = '>= 2.5'
+  s.required_ruby_version = '>= 2.4.4'
 
   s.add_runtime_dependency 'grape-entity', '>= 0.5.0'
   s.add_runtime_dependency 'rspec', '>= 3.2.0'
